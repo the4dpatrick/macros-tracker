@@ -5,12 +5,6 @@ $(document).ready(function(){
         var $currentP = $button.siblings('.number').children('p');
         var current = parseInt($currentP.text(), 10);
         var newVal = current - subtract; 
-<<<<<<< HEAD
-        $currentP.effect('bounce', function() {
-            $currentP.text(newVal);
-            $(this).show(); 
-        });            
-=======
 		if (isNaN(subtract)) {
 			alert("Please enter in a number");
 		} else {
@@ -19,6 +13,5 @@ $(document).ready(function(){
 	            $(this).show(); 
 	        });
 		}
->>>>>>> gh-pages
     });
 });
