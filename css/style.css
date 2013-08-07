@@ -1,16 +1,26 @@
 body {
-	background: #0769AD;
-	width: 100%;
-	height: 1000px;
+     background: #0769AD;
+     width: 100%;
+     height: 1200px;
 }
-<<<<<<< HEAD
-=======
+
 body:after {
-	content:"";
-	clear:both;
-	display:block;
+     content:"";
+     clear:both;
+     display:block;
 }
->>>>>>> gh-pages
+
+body .wrapper {
+     background: #0769AD;
+     height: 100%;
+     width: 100%;
+	 position: absolute;
+	 left: 50%;
+	 margin-left: -450px;
+}
+
+
+
 
 h1 {
 	font-size: 5em;
@@ -31,11 +41,22 @@ h1 {
 	padding-right: 10px;
 }
 
+#calories .wrap {
+	top: 240px;
+}
+
+
 #protein {
 	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+#protein .wrap {
+	left: 322px;
+	top: 240px;
+}
+
 
 #carbs {
 	display: inline-block;
@@ -43,11 +64,23 @@ h1 {
 	padding-right: 10px;
 }
 
+#carbs .wrap {
+	top: 240px;
+	left: 553px;
+}
+
+
 #fats {
 	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+#fats .wrap {
+	top: 240px;
+	left: 780px;
+}
+
 input {
 	display: block;
 }
@@ -85,8 +118,33 @@ button:hover {
 	background: #ecf0f1;
 	color: #2c3e50;
 }	
-	
-	
+.wrap {
+     position: absolute;
+     top: 206px;
+     left: 98px;
+     color: white;
+}
+#presets {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	z-index: 999;
+	width: 100%;
+	margin-left: 480px;
+	background: rgba(255, 255, 255, 0.5);
+	margin-left: -50%;
+	height: 54px;
+}
+#presets img {
+	position: absolute;
+	left: 50%;
+	margin-left: -54px;
+	bottom: 0;
+	padding: 8px;
+}
+#presets img:hover {
+	cursor:pointer;
+}
 	
 	
 	
