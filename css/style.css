@@ -1,0 +1,150 @@
+body {
+     background: #0769AD;
+     width: 100%;
+     height: 1200px;
+}
+
+body:after {
+     content:"";
+     clear:both;
+     display:block;
+}
+
+body .wrapper {
+     background: #0769AD;
+     height: 100%;
+     width: 100%;
+	 position: absolute;
+	 left: 50%;
+	 margin-left: -450px;
+}
+
+
+
+
+h1 {
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.wrapper {
+	width: 903px;
+	margin: 0 auto;
+	padding-top: 23px;
+}
+#calories {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#calories .wrap {
+	top: 240px;
+}
+
+
+#protein {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#protein .wrap {
+	left: 322px;
+	top: 240px;
+}
+
+
+#carbs {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#carbs .wrap {
+	top: 240px;
+	left: 553px;
+}
+
+
+#fats {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#fats .wrap {
+	top: 240px;
+	left: 780px;
+}
+
+input {
+	display: block;
+}
+.number p {
+	font-size: 3em;
+	color: #f39c12;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.label p {
+	font-size: 1.5em;
+	color: #bdc3c7;
+	text-align: center;
+}
+button {
+	background: none;
+	border: none;
+	font-size: 1em;
+	color: white;
+	background: #95a5a6;
+	border-bottom: 5px solid #2c3e50;
+	width: 100px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+button:hover {
+	width: 110px;
+	border-bottom: 2px solid #c0392b;
+	cursor: pointer;
+	margin-left: 45px;
+	background: #ecf0f1;
+	color: #2c3e50;
+}	
+.wrap {
+     position: absolute;
+     top: 206px;
+     left: 98px;
+     color: white;
+}
+#presets {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	z-index: 999;
+	width: 100%;
+	margin-left: 480px;
+	background: rgba(255, 255, 255, 0.5);
+	margin-left: -50%;
+	height: 54px;
+}
+#presets img {
+	position: absolute;
+	left: 50%;
+	margin-left: -54px;
+	bottom: 0;
+	padding: 8px;
+}
+#presets img:hover {
+	cursor:pointer;
+}
+	
+	
+	
